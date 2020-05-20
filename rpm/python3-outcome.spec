@@ -26,5 +26,5 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{python3_sitearch}/outcome
-%{python3_sitearch}/outcome-*.egg-info
+%{python3_sitelib}/outcome
+%{python3_sitelib}/outcome-*.egg-info
